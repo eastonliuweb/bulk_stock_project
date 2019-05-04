@@ -1,0 +1,58 @@
+.container{
+	width: 1000px;
+}
+/*头部文字部分*/
+.header-top{
+	border-bottom: 1px solid #E6E6E6;
+	height: 28px;
+	line-height: 28px;
+}
+.header-top-cont{
+	font-size: 12px;
+	color: #A0A0A0;
+}
+.header-top-cont-left span{
+	font-size: 14px;
+	color: #D40200;
+}
+.header-top-cont-right{
+	text-align: right;
+}
+.header-top-cont-right a{
+	color: #929292;
+}
+.header-top-cont-right span{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+/*头部logo和导航部分*/
+.header-cont .container{
+	height: 100px;
+	border: 1px solid white;
+}
+.header-cont img{
+	margin-top: 22px;
+}
+.header-cont .nav{
+	text-align: right;
+	padding-right: 0;
+}
+.header-cont .nav a{
+	font-size: 16px;
+	font-weight: bold;
+	color: black;
+	padding: 38px 20px;
+	display: inline-block;
+	margin-left: -6px;
+}
+.header-cont .nav .active{
+	border-bottom: 5px solid red;
+}
+/*banner部分*/
+.banner{
+	min-width: 1000px;
+}
+.banner img{
+	width: 100%;
+}
+
