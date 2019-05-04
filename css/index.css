@@ -55,4 +55,15 @@
 .banner img{
 	width: 100%;
 }
-
+/*server部分*/
+.server div{
+	height: 306px;
+	text-align: center;
+}
+.server div img{
+	margin-top: 70px;
+}
+.server div p{
+	margin-top: 30px;
+	font-size: 16px;
+}
