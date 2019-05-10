@@ -52,7 +52,7 @@
 .banner{
 	min-width: 1000px;
 	position: relative;
-	height: 500px;
+/* 	height: 500px; */
 }
 .banner img{
 	width: 100%;
@@ -79,4 +79,164 @@
 }
 .banner .banner-text p:nth-of-type(3) span{
 	color: #FAEEB7;
+}
+/* 收益率部分 */
+.rate{
+	height: 200px;
+	border-bottom: 1px solid #E5E5E5;
+	border-top: 1px solid transparent;
+}
+.rate .container{
+	height: 200px;
+	margin-top: 60px;
+	padding: 0;
+}
+.rate .container p{
+	margin: 0;
+}
+.rate .container .col-md-3{
+	border-right: 1px solid #DDDDDD;
+	text-align: center;
+}
+.rate .container .col-md-3:nth-last-of-type(1){
+	border: none;
+}
+.rate .container p:nth-of-type(1){
+	font-size: 20px;
+	color:#A7A7A7;
+}
+.rate .container p:nth-of-type(2){
+	color: #D90403;
+	margin-top: 26px;
+	font-size: 32px;
+	font-weight: bold;
+}
+/* 投资金额 ，公告部分*/
+.money-notice{
+	height: 436px;
+}
+.money-notice .left-money{
+	margin-top: 42px;
+	height: 344px;
+	width: 700px;
+	margin-right: 20px;
+	border: 1px solid #E5E5E5;
+	text-align: center;
+	font-size: 18px;
+	padding: 0;
+}
+.money-notice .left-money p{
+	margin: 0;
+}
+.money-notice .left-money .top-content{
+	border-bottom: 1px solid #E5E5E5;
+	padding-bottom: 62px;
+}
+.money-notice .left-money .top-content>p{
+	margin: 40px 0 0 0;
+}
+.money-notice .left-money .top-content>p span{
+	color: #D70A0E;
+	font-weight: bold;
+}
+.money-notice .left-money .row{
+	height: 70px;
+	margin-top: 48px;
+}
+.money-notice .left-money .invest{
+	height: 70px;
+	width: 334px;
+	border-right: 1px solid #DDDDDD;
+	padding: 0;
+}
+.money-notice .left-money .row p:nth-of-type(1){
+	font-size: 12px;
+	color: #989898;
+	margin-bottom: 22px;
+}
+.money-notice .left-money .row p:nth-of-type(2){
+	font-size: 32px;
+	color: #DB4444;
+}
+.money-notice .left-money .earning{
+	height: 70px;
+/* 	width: 366px; */
+	padding: 0;
+}
+.money-notice .left-money .bottom-btn{
+	padding-top: 28px;
+}
+.money-notice .left-money .bottom-btn .btn{
+	height: 44px;
+	width: 162px;
+	border-radius: 22px;
+}
+.money-notice .left-money .bottom-btn .btn:nth-of-type(1){
+	background-color: #D80100;
+	margin-right: 18px;
+	border: none;
+}
+.money-notice .left-money .bottom-btn .btn:nth-of-type(2){
+	background-color: white;
+	border-color: #D80100;
+}
+/* 右边公告部分 */
+.money-notice .panel-notice{
+	margin-top: 42px;
+	padding: 0;
+	height: 344px;
+	width: 280px;
+	border: 1px solid #E5E5E5;
+}
+.money-notice .panel-notice .panel-heading{
+	height: 56px;
+	background-color: #F7F7F7;
+	border-bottom: 1px solid #E5E5E5;
+	line-height: 56px;
+}
+.money-notice .panel-notice .panel-heading .panel-title{
+	margin-left: 20px;
+	font-size: 16px;
+}
+.money-notice .panel-notice .panel-heading .panel-title a{
+	font-size: 12px;
+	color: #7F7F7F;
+	margin-left: 178px;
+}
+.money-notice .panel-notice .panel-body ul{
+	padding-left: 20px;
+	list-style: none;
+	margin: 14px 0 0 0;
+}
+.money-notice .panel-notice .panel-body ul li{
+	line-height: 36px;
+}
+.money-notice .panel-notice .panel-body ul li a{
+	font-size: 12px;
+	color: #7F7F7F;
+}
+.money-notice .panel-notice .panel-body ul .active {
+	color: red;
+}
+/* 特色部分 */
+.feature{
+	background: url(../img/bg.png) no-repeat;
+	height: 500px;
+	width: 100%;
+	border: 1px solid transparent;
+}
+.feature h1{
+	margin: 0;
+	color: white;
+	margin-top: 92px;
+	text-align: center;
+}
+.feature .row div{
+	text-align: center;
+	margin-top: 70px;
+}
+.feature .row div p{
+	font-size: 18px ;
+	color: #A18076;
+	margin-top: 32px;
 }
