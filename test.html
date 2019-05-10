@@ -5,25 +5,20 @@
 		<title></title>
 		<link rel="stylesheet" type="text/css" href="css/simplecss.css" />
 		<style>
-			.container{
-				height: 50px;
-				border: 1px solid red;
-			}
-			.top-left{
-				height: 50px;
-				background-color: red;
-			}
-			.top-right{
-				height: 50px;
-				background-color: orange;
+			.container p:nth-of-type(1){
+				color: red;
 			}
 		</style>
 	</head>
 	<body>
 		<div class="container">
 			<div class="row">
-				<div class="col-md-5 top-left"></div>
-				<div class="col-md-5 col-md-push-2 top-right"></div>
+				<div class="col-md-12 top-left">
+					<h1>这是标题</h1>
+					<p>这是第一行</p>
+					<p>这是第二行</p>
+					<p>这是第三行</p>
+				</div>
 			</div>
 		</div>
 	</body>
