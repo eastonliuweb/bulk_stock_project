@@ -174,11 +174,13 @@
 .money-notice .left-money .bottom-btn .btn:nth-of-type(1){
 	background-color: #D80100;
 	margin-right: 18px;
+	color: white;
 	border: none;
 }
 .money-notice .left-money .bottom-btn .btn:nth-of-type(2){
 	background-color: white;
 	border-color: #D80100;
+	color: #D80100;
 }
 /* 右边公告部分 */
 .money-notice .panel-notice{
@@ -223,6 +225,7 @@
 	background: url(../img/bg.png) no-repeat;
 	height: 500px;
 	width: 100%;
+	min-width: 1000px;
 	border: 1px solid transparent;
 }
 .feature h1{
@@ -240,3 +243,168 @@
 	color: #A18076;
 	margin-top: 32px;
 }
+/* 投资指南、咨询、建议、投诉 */
+.guide-advice{
+	margin-top: 50px;
+}
+.guide-advice .left-guide{
+	padding: 0;
+	height: 392px;
+	width: 490px;
+	border: 1px solid #E4E4E4;
+	margin-right: 20px;
+}
+.guide-advice .left-guide .panel-heading{
+	height: 55px;
+	background-color: #F7F7F7;
+	border-bottom: 1px solid #E4E4E4;
+}
+.guide-advice .left-guide .panel-heading .title{
+	line-height: 55px;
+	font-size: 18px;
+	padding-left: 20px;
+}
+.guide-advice .left-guide .panel-heading .title a{
+	font-size: 12px;
+	color: #9D9D9D;
+	margin-left: 336px;
+}
+.guide-advice .left-guide .panel-body{
+	padding: 28px 16px 0 20px;
+	position: relative;
+}
+.guide-advice .left-guide .panel-body .top-content{
+	height: 114px;
+	border-bottom: 1px dotted #E4E4E4;
+}
+.guide-advice .left-guide .panel-body .top-content img{
+	position: absolute;
+}
+.guide-advice .left-guide .panel-body .top-content .text{
+	margin-left: 156px;
+	font-size: 16px;
+}
+.guide-advice .left-guide .panel-body .top-content .text h5{
+	margin: 0;
+}
+.guide-advice .left-guide .panel-body .top-content .text p{
+	font-size: 12px;
+	color: #9D9D9D;
+	line-height: 24px;
+}
+.guide-advice .left-guide .panel-body .bottom-list ul{
+	list-style: square;
+	font-size: 14px;
+	margin-top: 28px;
+	padding-left: 14px;
+}
+.guide-advice .left-guide .panel-body .bottom-list ul li{
+	margin-top: 18px;
+}
+.guide-advice .left-guide .panel-body .bottom-list ul li a{
+	color: black;
+	position: relative;
+	display: block;
+}
+.guide-advice .left-guide .panel-body .bottom-list ul li a span{
+	position: absolute;
+	right: 20px;
+	color: #9D9D9D;
+}
+/* 右边咨询、建议、投诉部分 */
+.guide-advice .right-advice{
+	height: 392px;
+	width: 490px;
+	border: 1px solid #E4E4E4;
+	padding: 0;
+}
+.guide-advice .right-advice .panel-heading{
+	height: 55px;
+	background-color: #F7F7F7;	
+}
+.guide-advice .right-advice .panel-heading .title span{
+	font-size: 18px;
+	width: 33.6%;
+	height: 55px;
+	display: inline-block;
+	border-bottom: 1px solid #E4E4E4;
+	margin-right: -6px;
+	text-align: center;
+	line-height: 55px;
+}
+.guide-advice .right-advice .panel-heading .title span:nth-of-type(1){
+	background-color: white;
+	color: red;
+	border-bottom: none;
+}
+.guide-advice .right-advice .panel-heading .title span:nth-of-type(2){
+	border-left: 1px solid #E4E4E4;
+	border-right: 1px solid #E4E4E4;
+}
+.guide-advice .right-advice .panel-body{
+	padding: 14px 0 0 20px;
+}
+.guide-advice .right-advice .panel-body .left-answer{
+	height: 270px;
+	width: 324px;
+	float: left;
+}
+.guide-advice .right-advice .panel-body .left-answer div{
+	height: 72px;
+	border-bottom: 1px solid #E4E4E4;
+	font-size: 12px;
+	padding-top: 7px;
+}
+.guide-advice .right-advice .panel-body .left-answer div p{
+	line-height: 28px;
+	margin: 0;
+}
+.guide-advice .right-advice .panel-body .left-answer div p:nth-of-type(1) span{
+	height: 12px;
+	width: 12px;
+	border-radius: 3px;
+	display: inline-block;
+	text-align: center;
+	line-height: 12px;
+	background-color: #6FA2D4;
+	color: white;
+	margin-right: 4px;
+}
+.guide-advice .right-advice .panel-body .left-answer div p:nth-of-type(2) span{
+	height: 12px;
+	width: 12px;
+	border-radius: 3px;
+	display: inline-block;
+	text-align: center;
+	line-height: 12px;
+	background-color: #BCBCBC;
+	color: white;
+	margin-right: 4px;
+}
+.guide-advice .right-advice .panel-body .right-server{
+	height: 270px;
+	width: 100px;
+	float: left;
+	border: 1px solid #E4E4E4;
+	margin: 18px 0 0 20px;
+	background-color: #F5F5F5;
+}
+.guide-advice .right-advice .panel-body .right-server ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.guide-advice .right-advice .panel-body .right-server ul li{
+	height: 67px;
+	line-height: 67px;
+	text-align: center;
+	border-bottom: 1px solid #E4E4E4;
+}
+.guide-advice .right-advice .panel-body .right-server ul li a{
+	color: #818181;
+	font-size: 14px;
+}
+.guide-advice .right-advice .panel-body .right-server ul li:nth-last-child(1){
+	border-bottom: none;
+}
+
